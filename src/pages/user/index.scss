@@ -1,0 +1,27 @@
+.user-page {
+  background-color: #eeeeee;
+  .header-image {
+    width: 100vw;
+    height: 300rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 60% 60%;
+    color: #ffffff;
+    background-color: #eb523e;
+    image {
+      width: 180rpx;
+      height: 180rpx;
+    }
+  }
+  .count-time {
+    height: 100rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .text-title {
+      color: red;
+    }
+  }
+}

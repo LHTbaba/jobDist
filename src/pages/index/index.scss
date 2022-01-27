@@ -1,0 +1,113 @@
+.index-page {
+  height: 100vh;
+  overflow: auto;
+  .top-swiper {
+    margin-top: 120rpx;
+    .swiper-image {
+      image {
+        width: 100%;
+      }
+    }
+  }
+  .search-box {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 120rpx;
+    padding: 0 40rpx;
+    display: flex;
+    align-items: center;
+    background-color: #eb523e;
+    z-index: 99;
+    .address {
+      width: 100rpx;
+      height: 100rpx;
+      line-height: 100rpx;
+      text-align: center;
+      color: #fff;
+    }
+    .at-input {
+      padding-left: 30rpx;
+      border-radius: 90rpx;
+      background-color: #0005;
+      input {
+        color: #ffffff;
+      }
+    }
+    .search-button {
+      width: 200rpx;
+      height: 100rpx;
+      padding-right: 40rpx;
+      line-height: 100rpx;
+      color: #fff;
+      text-align: center;
+    }
+  }
+  .list-title {
+    height: 100rpx;
+    padding-left: 50rpx;
+    line-height: 100rpx;
+    font-size: 35rpx;
+    font-weight: bolder;
+    background-color: #eeeeee;
+  }
+  .list-item {
+    height: 200rpx;
+    display: flex;
+    border-bottom: 20rpx solid #eeeeee;
+    background-color: #ffffff;
+    .left-box {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 20rpx 20rpx 20rpx 40rpx;
+      .text-title {
+        font-size: 30rpx;
+        font-weight: bolder;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+      .text-desc {
+        font-size: 25rpx;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        .iconfont {
+          font-size: 27rpx;
+          color: rgb(0, 140, 255);
+          margin-right: 5rpx;
+        }
+      }
+    }
+    .right-box {
+      position: relative;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 20rpx 40rpx;
+      text-align: right;
+      .text-money {
+        color: red;
+        font-size: 40rpx;
+        font-weight: bolder;
+      }
+      .state-tag {
+        position: absolute;
+        bottom: 40rpx;
+        right: 40rpx;
+        width: 160rpx;
+        height: 50rpx;
+        color: #d81e06;
+        background-color: #d81e0666;
+        line-height: 50rpx;
+        text-align: center;
+        border-radius: 50rpx;
+      }
+    }
+  }
+}
